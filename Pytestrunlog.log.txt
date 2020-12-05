@@ -1,0 +1,26 @@
+Testing started at 11:24 AM ...
+C:\Users\Admin\PycharmProjects\pythonProject\vinay\venv\Scripts\python.exe "C:\Program Files\JetBrains\PyCharm Community Edition 2020.2.1\plugins\python-ce\helpers\pycharm\_jb_pytest_runner.py" --path C:/Users/Admin/PycharmProjects/pythonProject/vinay/PYTESTING/test_mykeyvaluemap.py
+Launching pytest with arguments C:/Users/Admin/PycharmProjects/pythonProject/vinay/PYTESTING/test_mykeyvaluemap.py in C:\Users\Admin\PycharmProjects\pythonProject\vinay\PYTESTING
+
+============================= test session starts =============================
+platform win32 -- Python 3.8.5, pytest-6.1.2, py-1.9.0, pluggy-0.13.1 -- C:\Users\Admin\PycharmProjects\pythonProject\vinay\venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\Admin\PycharmProjects\pythonProject\vinay\PYTESTING
+collecting ... collected 4 items
+
+test_mykeyvaluemap.py::test_getValuesThroughMap PASSED                   [ 25%][None, None]
+
+test_mykeyvaluemap.py::test_getKeysTTLnotexpired PASSED                  [ 50%]2400
+3000
+ Both Key values printed successfully before ttl expire
+
+test_mykeyvaluemap.py::test_getKeysTTLexpired_6sec PASSED                [ 75%]3000
+Key values printed successfully after 6sec for Rahul as TTL is 30
+key-value of Vinay not printed after ttl expire as TTL was 5
+
+test_mykeyvaluemap.py::test_getKeysTTLexpired_31sec PASSED               [100%]key-value of Rahul not printed after ttl expire as TTL was 30
+
+
+============================= 4 passed in 31.05s ==============================
+
+Process finished with exit code 0
