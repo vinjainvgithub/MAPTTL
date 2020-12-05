@@ -1,4 +1,4 @@
-This python program map the Keys value to print with with TTL given. Keys, value only prints when TTL is active . After expiry it is not printed .
+This python program maps the Keys values to print  with TTL given.Keys, value only prints when TTL is active . After expiry it is not printed .
 
 Folder has file 
 1) mapdict_ttl as entire python code .
